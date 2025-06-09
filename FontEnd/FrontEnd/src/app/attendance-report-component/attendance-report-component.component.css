@@ -1,0 +1,118 @@
+/* src/app/attendance-report-component/attendance-report-component.component.css */
+
+.attendance-report-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h2 {
+    color: #343a40;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.summary-cards .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.summary-cards .card-body {
+    padding: 20px;
+}
+
+.summary-cards .card-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.summary-cards .card-text {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* Backgrounds from Bootstrap */
+.bg-primary { background-color: #007bff !important; }
+.bg-success { background-color: #28a745 !important; }
+.bg-warning { background-color: #ffc107 !important; }
+.bg-info { background-color: #17a2b8 !important; }
+.text-white { color: #fff !important; }
+.text-dark { color: #343a40 !important; }
+
+.chart-container, .records-table {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+    margin-top: 30px;
+    padding: 20px;
+    min-height: 400px; /* Ensure space for chart */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.records-table h4 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+    color: #495057;
+    text-align: left;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.badge {
+    padding: 0.5em 0.7em;
+    border-radius: 0.25rem;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Badge specific colors (reusing from my-leaves-history) */
+.badge.bg-success { background-color: #28a745 !important; color: #fff; }
+.badge.bg-warning { background-color: #ffc107 !important; color: #212529; }
+.badge.bg-info { background-color: #17a2b8 !important; color: #fff; }
+.badge.bg-danger { background-color: #dc3545 !important; color: #fff; }
+.badge.bg-secondary { background-color: #6c757d !important; color: #fff; }
+
+.alert {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 15px;
+}

@@ -1,0 +1,197 @@
+/* view-all-attendance.component.css */
+
+/* Main container for the attendance view */
+.view-all-attendance-container {
+    padding: 2rem; /* Padding around the content */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    font-family: 'Inter', sans-serif; /* Consistent font */
+}
+
+/* Heading styling */
+.view-all-attendance-container h2 {
+    color: #343a40; /* Dark grey color */
+    margin-bottom: 1.5rem; /* Space below heading */
+    font-weight: 700; /* Bold font weight */
+    text-align: center; /* Center align text */
+}
+
+/* General message box styling */
+.message {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+/* Specific error message styling */
+.error-message {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    border: 1px solid #f5c6cb; /* Red border */
+}
+
+/* Attendance Summary Card (for the chart) */
+.attendance-summary {
+    margin-bottom: 2rem; /* Space below the card */
+    border-radius: 10px;
+    overflow: hidden; /* Ensures card-header border-radius works correctly */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); /* Shadow for the card */
+}
+
+/* Card header styling */
+.attendance-summary .card-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    background-color: #007bff !important; /* Primary blue background (override Bootstrap) */
+    color: #ffffff !important; /* White text (override Bootstrap) */
+    border-bottom: none; /* Remove default border */
+}
+
+/* Card body styling (for chart container) */
+.attendance-summary .card-body {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center; /* Center the chart horizontally */
+    align-items: center; /* Center the chart vertically */
+}
+
+/* Table container for responsiveness */
+.table-responsive {
+    margin-top: 2rem; /* Space above the table */
+}
+
+/* General table styling */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: separate; /* Allows for border-radius on cells */
+    border-spacing: 0; /* Ensures no space between cells */
+}
+
+/* Table header (thead) styling */
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    padding: 0.75rem;
+    font-weight: 600;
+    text-align: left;
+    background-color: #343a40; /* Dark background for header */
+    color: #ffffff; /* White text for header */
+}
+
+/* Table body (tbody) cell styling */
+.table tbody td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Striped rows effect */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.03); /* Light grey stripe */
+}
+
+/* Hover effect for table rows */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.075); /* Light blue on hover */
+    cursor: pointer;
+}
+
+/* Rounded corners for the table header */
+.table thead tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.table thead tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+}
+
+/* Rounded corners for the table body (bottom) */
+.table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+/* Styling for status badges */
+.badge {
+    padding: 0.5em 0.75em;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 0.85em;
+    display: inline-block; /* Ensures padding works correctly */
+}
+
+/* Specific colors for status badges */
+.bg-success {
+    background-color: #28a745 !important; /* Green for Present */
+    color: #ffffff;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important; /* Red for Absent */
+    color: #ffffff;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important; /* Yellow for On Leave */
+    color: #212529 !important; /* Dark text for contrast on yellow */
+}
+
+/* Message for no data in the table */
+.no-data-message {
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+    padding: 1rem;
+}
+
+/* Responsive adjustments for table on small screens */
+@media (max-width: 768px) {
+    .view-all-attendance-container {
+        padding: 1rem; /* Reduced padding */
+    }
+
+    .table thead {
+        display: none; /* Hide table header */
+    }
+
+    .table, .table tbody, .table tr, .table td {
+        display: block; /* Make table elements stack vertically */
+        width: 100%;
+    }
+
+    .table tr {
+        margin-bottom: 1rem;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .table td {
+        text-align: right; /* Align actual data to the right */
+        padding-left: 50%; /* Space for pseudo-element label */
+        position: relative;
+        border: none; /* Remove individual cell borders */
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    /* Pseudo-element to display column headers as labels on small screens */
+    .table td::before {
+        content: attr(data-label); /* Get label from data-label attribute */
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 15px;
+        font-weight: 600;
+        text-align: left;
+        color: #495057;
+    }
+}

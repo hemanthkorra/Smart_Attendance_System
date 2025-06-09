@@ -1,0 +1,309 @@
+/* src/app/view-leave-requests/view-leave-requests.component.css */
+
+.view-leave-requests-container {
+  max-width: 1200px; /* Increased max-width for better table display */
+  margin: 50px auto;
+  padding: 0; /* Removed padding from container, using card body padding */
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Stronger, softer shadow */
+  background-color: #fff;
+  overflow: hidden; /* Ensures rounded corners clip content */
+}
+
+.card-header {
+  background: linear-gradient(to right, #007bff, #0056b3); /* Gradient for header */
+  color: #ffffff;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0;
+}
+
+.card-body {
+  padding: 2.5rem; /* More generous padding inside card body */
+}
+
+/* Table styling */
+.table-responsive {
+  margin-top: 1.5rem; /* Space below messages */
+  border-radius: 10px; /* Rounded corners for table container */
+  overflow: hidden; /* Ensures table corners are clipped */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+  border: 1px solid #e9ecef; /* Subtle border */
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 0; /* Remove default table margin-bottom */
+  color: #212529;
+  border-collapse: separate; /* Required for border-radius on cells */
+  border-spacing: 0 8px; /* Space between rows */
+}
+
+.table thead th {
+  padding: 15px 20px; /* More padding for headers */
+  vertical-align: middle;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+  color: #e9ecef; /* Light text for dark header */
+  text-align: left;
+  background-color: #343a40; /* Darker header background */
+}
+
+.table tbody td {
+  padding: 12px 20px; /* Consistent padding for cells */
+  vertical-align: middle;
+  border-top: none; /* Remove default border */
+  border-bottom: 1px solid #e9ecef; /* Lighter border for rows */
+}
+
+.table tbody tr {
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  border-radius: 8px; /* Apply border-radius to rows */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); /* Softer row shadow */
+}
+
+.table tbody tr:hover {
+  background-color: #f0f8ff; /* Light blue on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Specific styling for the first and last cells of a row to round corners */
+.table tbody tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table tbody tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Status Badges */
+.badge {
+  padding: 0.6em 0.9em; /* Slightly larger badges */
+  border-radius: 0.35rem; /* More rounded badges */
+  font-size: 0.9em; /* Slightly larger font */
+  font-weight: 600; /* Bolder text */
+  text-transform: uppercase;
+  display: inline-flex; /* For better alignment with text */
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-warning.text-dark {
+  background-color: #ffc107 !important;
+  color: #212529 !important; /* Dark text for warning */
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+  color: #fff;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+  color: #fff;
+}
+
+/* Action Buttons */
+.actions .btn {
+  font-size: 0.9em;
+  padding: 0.5rem 1rem;
+  border-radius: 50px; /* Pill shape */
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions .btn-success {
+  background: linear-gradient(to right, #28a745, #218838);
+  border: none;
+  color: white;
+}
+
+.actions .btn-success:hover:not(:disabled) {
+  background: linear-gradient(to right, #218838, #1e7e34);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+.actions .btn-danger {
+  background: linear-gradient(to right, #dc3545, #c82333);
+  border: none;
+  color: white;
+}
+
+.actions .btn-danger:hover:not(:disabled) {
+  background: linear-gradient(to right, #c82333, #bd2130);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+}
+
+.actions .btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: none;
+  transform: none;
+}
+
+.actions .btn .spinner-border {
+  margin-right: 0.5rem;
+}
+
+/* Alerts */
+.alert {
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem; /* Space below alerts */
+  border-radius: 10px; /* More rounded alerts */
+  font-size: 1em;
+  text-align: left;
+  display: flex; /* Use flexbox for icon alignment */
+  align-items: center;
+  justify-content: center; /* Center content for info/loading alerts */
+}
+
+.alert i {
+  font-size: 1.2em; /* Larger icons in alerts */
+  margin-right: 0.5rem; /* Space between icon and text */
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border-color: #bee5eb;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+
+.no-data-message {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  padding: 20px;
+}
+
+/* Custom Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Darker overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050; /* Above other content */
+}
+
+.modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+}
+
+.modal-content {
+  border-radius: 1rem; /* More rounded modal */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  border: none;
+  background-color: #fff; /* <--- ADD THIS LINE: Explicitly set background to white */
+}
+
+.modal-header {
+  background: linear-gradient(to right, #007bff, #0056b3); /* Primary gradient header */
+  color: white;
+  border-bottom: none;
+  padding: 1.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.modal-header .btn-close-white {
+  filter: invert(1) grayscale(100%) brightness(200%); /* Make close button white */
+}
+
+.modal-body {
+  padding: 2rem;
+  color: #343a40; /* Ensure this color is visible against the modal content background */
+}
+
+.modal-body p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767.98px) {
+  .view-leave-requests-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .card-body {
+    padding: 1.5rem;
+  }
+  .table thead {
+    display: none; /* Hide table header on small screens */
+  }
+  .table, .table tbody, .table tr, .table td {
+    display: block; /* Make table elements behave like blocks */
+    width: 100%;
+  }
+  .table tr {
+    margin-bottom: 15px; /* Space between rows */
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  }
+  .table td {
+    text-align: right;
+    padding-left: 50%; /* Space for pseudo-element label */
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+  }
+  .table td:last-child {
+    border-bottom: none;
+  }
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    width: calc(50% - 20px);
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+    color: #495057;
+  }
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 10px;
+  }
+}

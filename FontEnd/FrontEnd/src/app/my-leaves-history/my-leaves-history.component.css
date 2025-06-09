@@ -1,0 +1,147 @@
+/* src/app/my-leaves-history-component/my-leaves-history-component.component.css */
+
+.leaves-history-container {
+  max-width: 800px; /* Increased max-width for better table display */
+  margin: 50px auto;
+  padding: 0; /* Removed padding from container, using card body padding */
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Stronger, softer shadow */
+  background-color: #fff;
+  overflow: hidden; /* Ensures rounded corners clip content */
+}
+
+.card-header {
+  background: linear-gradient(to right, #007bff, #0056b3); /* Gradient for header */
+  color: #ffffff;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0;
+}
+
+.card-body {
+  padding: 2.5rem; /* More generous padding inside card body */
+}
+
+.table-responsive {
+  margin-top: 1.5rem; /* Adjusted margin-top */
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 0; /* Remove default table margin-bottom */
+  color: #212529;
+  border-collapse: separate; /* Required for border-radius on cells */
+  border-spacing: 0 8px; /* Space between rows */
+}
+
+.table thead th {
+  padding: 12px 15px;
+  vertical-align: middle;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+  color: #495057;
+  text-align: left;
+  background-color: #e9ecef; /* Light header background */
+}
+
+.table tbody td {
+  padding: 12px 15px;
+  vertical-align: middle;
+  border-top: none; /* Remove default border */
+  border-bottom: 1px solid #e9ecef; /* Lighter border for rows */
+}
+
+.table tbody tr {
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  border-radius: 8px; /* Apply border-radius to rows */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); /* Softer row shadow */
+}
+
+.table tbody tr:hover {
+  background-color: #f0f8ff; /* Lighter blue on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Specific styling for the first and last cells of a row to round corners */
+.table tbody tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table tbody tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.badge {
+  padding: 0.6em 0.9em; /* Slightly larger badges */
+  border-radius: 0.35rem; /* More rounded badges */
+  font-size: 0.9em; /* Slightly larger font */
+  font-weight: 600; /* Bolder text */
+  text-transform: uppercase;
+  display: inline-flex; /* For better alignment with text */
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+  color: #fff;
+}
+
+.bg-warning {
+  background-color: #ffc107 !important;
+  color: #212529;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: #6c757d !important;
+  color: #fff;
+}
+
+/* Alerts styling */
+.alert {
+  padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 10px; /* More rounded alerts */
+  font-size: 1em;
+  text-align: left;
+  display: flex; /* Use flexbox for icon alignment */
+  align-items: center;
+  justify-content: center; /* Center content for info/loading alerts */
+}
+
+.alert i {
+  font-size: 1.2em; /* Larger icons in alerts */
+  margin-right: 0.5rem; /* Space between icon and text */
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border-color: #bee5eb;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}

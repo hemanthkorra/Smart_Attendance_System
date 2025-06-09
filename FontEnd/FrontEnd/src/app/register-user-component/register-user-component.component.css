@@ -1,0 +1,97 @@
+/* src/app/components/register/register-user-component.component.css */
+
+.register-container {
+  max-width: 800px; /* Limit width for better readability */
+  margin: 0 auto; /* Center the container */
+}
+
+.card {
+  border: none; /* Remove default card border */
+}
+
+.card-header {
+  background-color: #007bff; /* Primary blue for header */
+  color: white;
+  font-weight: bold;
+}
+
+.form-label {
+  font-weight: 600; /* Make labels slightly bolder */
+  color: #343a40; /* Dark gray for labels */
+}
+
+.form-control-lg.rounded-pill,
+.form-select-lg.rounded-pill {
+  border-radius: 50rem !important; /* Fully rounded input fields */
+  padding: 0.75rem 1.25rem; /* Adjust padding for larger inputs */
+  border: 1px solid #ced4da; /* Light gray border */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); /* Subtle inner shadow */
+}
+
+.form-control-lg.rounded-pill:focus,
+.form-select-lg.rounded-pill:focus {
+  border-color: #80bdff; /* Bootstrap focus blue */
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25); /* Focus ring */
+}
+
+.btn-info {
+  background-color: #17a2b8; /* Info blue for capture button */
+  border-color: #17a2b8;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary blue for register button */
+  border-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.webcam-container {
+  width: 320px; /* Fixed width for webcam */
+  height: 240px; /* Fixed height for webcam */
+  background-color: #f8f9fa; /* Light background for webcam area */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Needed for absolute positioning of webcam */
+  overflow: hidden; /* Hide overflow from webcam stream */
+}
+
+.webcam-container webcam {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure video covers the container */
+}
+
+.captured-image-preview {
+  background-color: #e9ecef; /* Light gray background for image preview */
+  padding: 15px;
+  border-radius: 0.5rem;
+  width: 220px; /* Slightly larger than the 200px image */
+  text-align: center;
+}
+
+.captured-image-preview img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Remove extra space below image */
+  margin: 0 auto; /* Center the image */
+}
+
+/* Optional: Add some responsiveness for smaller screens */
+@media (max-width: 767.98px) {
+  .register-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

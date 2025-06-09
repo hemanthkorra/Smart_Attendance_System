@@ -1,0 +1,178 @@
+/* manage-users.component.css */
+
+/* Main container for the manage users page */
+.manage-users-container {
+    background-color: #f8f9fa; /* Light background */
+    min-height: calc(100vh - 70px); /* Adjust based on header height */
+    font-family: 'Inter', sans-serif; /* Consistent font */
+}
+
+/* Heading styles */
+.manage-users-container h2 {
+    color: #343a40; /* Dark grey color */
+    font-weight: 700;
+}
+
+.manage-users-container h3 {
+    color: #495057; /* Slightly lighter grey for subheadings */
+    font-weight: 600;
+}
+
+/* Message (alert) styling - Bootstrap classes handle most of this */
+.message {
+    margin-bottom: 1.5rem;
+}
+
+/* Form Card styling */
+.form-card {
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Enhanced shadow */
+}
+
+.form-card .card-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.form-card .card-title {
+    font-size: 1.25rem; /* Larger title in card header */
+    font-weight: 700;
+}
+
+.form-card .card-body {
+    padding: 1.5rem;
+}
+
+/* Form group spacing is handled by Bootstrap's mb-3 */
+/* Label styling is handled by Bootstrap's form-label */
+
+/* Input and Select styling is handled by Bootstrap's form-control and form-select */
+
+/* Validation error messages (invalid-feedback) */
+.invalid-feedback {
+    font-size: 0.875em; /* Smaller font size for feedback */
+}
+
+/* Form actions (buttons container) */
+.form-actions {
+    margin-top: 1.5rem;
+}
+
+/* Table styling - Bootstrap classes handle most of this */
+.table {
+    border-collapse: separate; /* Allows for border-radius on cells */
+    border-spacing: 0; /* Ensures no space between cells */
+    border-radius: 10px; /* Rounded corners for the entire table */
+    overflow: hidden; /* Ensures content respects border-radius */
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    padding: 0.75rem;
+    font-weight: 600;
+    text-align: left;
+    background-color: #343a40; /* Dark background for header */
+    color: #ffffff; /* White text for header */
+}
+
+.table tbody td {
+    padding: 0.75rem;
+    vertical-align: middle; /* Center content vertically in cells */
+    border-top: 1px solid #dee2e6;
+}
+
+/* Rounded corners for the table header */
+.table thead tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table thead tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+/* Rounded corners for the table body (bottom) */
+.table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+/* Actions column buttons */
+.actions .btn {
+    margin-right: 0.5rem; /* Spacing between action buttons */
+    /* Bootstrap's btn-sm class handles small size */
+}
+
+.actions .btn:last-child {
+    margin-right: 0;
+}
+
+/* No data message in table */
+.no-data-message {
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Responsive adjustments for table on small screens */
+@media (max-width: 768px) {
+    .manage-users-container {
+        padding: 1rem; /* Reduced padding on small screens */
+    }
+
+    .table thead {
+        display: none; /* Hide table header on small screens */
+    }
+
+    .table, .table tbody, .table tr, .table td {
+        display: block; /* Make table elements stack vertically */
+        width: 100%;
+    }
+
+    .table tr {
+        margin-bottom: 1rem;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .table td {
+        text-align: right; /* Align actual data to the right */
+        padding-left: 50%; /* Space for pseudo-element label */
+        position: relative;
+        border: none; /* Remove individual cell borders */
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    /* Pseudo-element to display column headers as labels on small screens */
+    .table td::before {
+        content: attr(data-label); /* Get label from data-label attribute */
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 15px;
+        font-weight: 600;
+        text-align: left;
+        color: #495057;
+    }
+
+    .actions {
+        text-align: center; /* Center action buttons on small screens */
+        padding-left: 0 !important; /* Remove pseudo-element padding */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem; /* Space between buttons */
+    }
+
+    .actions .btn {
+        margin-right: 0; /* Remove individual button margins, use gap */
+        flex-grow: 1; /* Allow buttons to grow to fill space */
+        max-width: 150px; /* Limit button width */
+    }
+}

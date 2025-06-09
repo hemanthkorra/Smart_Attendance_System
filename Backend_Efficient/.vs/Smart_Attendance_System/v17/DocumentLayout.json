@@ -1,0 +1,414 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\userfaceencoding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\userfaceencoding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\dtos\\updatepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\dtos\\updatepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\dtos\\leaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\dtos\\leaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\dtos\\flaskrecognizeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\dtos\\flaskrecognizeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\dtos\\edituserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\dtos\\edituserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\model\\dtos\\attendancerecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\model\\dtos\\attendancerecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524111759_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524095320_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524094929_facemigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/HEMANTH_SQLEXPRESS/SmartAttandanceDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|e:\\spekatra_practice\\capstone_project_smart_attandance_monitoring_system\\backend_efficient\\smart_attendance_system\\migrations\\20250524113043_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72D6626-2B9E-406B-8EB5-1EBBA35BC5AC}|Smart_Attendance_System\\Smart_Attendance_System.csproj|solutionrelative:smart_attendance_system\\migrations\\20250524113043_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:39:56.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Controllers\\AttendanceController.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAYwOEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T03:31:13.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\appsettings.json",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\appsettings.json",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\appsettings.json",
+              "RelativeToolTip": "Smart_Attendance_System\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T01:37:23.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserFaceEncoding.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\UserFaceEncoding.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\UserFaceEncoding.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\UserFaceEncoding.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\UserFaceEncoding.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:07:55.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:38:44.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Program.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Program.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Program.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:37:34.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttendanceDTO.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\AttendanceDTO.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\DTOs\\AttendanceDTO.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\AttendanceDTO.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\DTOs\\AttendanceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:05:15.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:41:23.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA5wAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:03:32.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA6wCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T03:30:20.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\User.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\User.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\User.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T03:24:53.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeaveRequest.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\LeaveRequest.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\LeaveRequest.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\LeaveRequest.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\LeaveRequest.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:43:55.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AttendanceRecord.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\AttendanceRecord.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\AttendanceRecord.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\AttendanceRecord.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\AttendanceRecord.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:35:49.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\Attendance.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\Attendance.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\Attendance.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\Attendance.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA/wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T03:26:10.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdatePasswordRequest.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\UpdatePasswordRequest.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\DTOs\\UpdatePasswordRequest.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\UpdatePasswordRequest.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\DTOs\\UpdatePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T00:50:40.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\DTOs\\LoginRequest.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:35:25.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LeaveRequestDto.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\LeaveRequestDto.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\DTOs\\LeaveRequestDto.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\LeaveRequestDto.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\DTOs\\LeaveRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:08:43.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FlaskRecognizeResponse.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\FlaskRecognizeResponse.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\DTOs\\FlaskRecognizeResponse.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\FlaskRecognizeResponse.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\DTOs\\FlaskRecognizeResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:17:17.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditUserRequest.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\EditUserRequest.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\DTOs\\EditUserRequest.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\EditUserRequest.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\DTOs\\EditUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T00:45:51.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AttendanceRecordDto.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\AttendanceRecordDto.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Model\\DTOs\\AttendanceRecordDto.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Model\\DTOs\\AttendanceRecordDto.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Model\\DTOs\\AttendanceRecordDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:06:42.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250524113043_init.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Migrations\\20250524113043_init.cs",
+              "RelativeDocumentMoniker": "Smart_Attendance_System\\Migrations\\20250524113043_init.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Backend_Efficient\\Smart_Attendance_System\\Migrations\\20250524113043_init.cs",
+              "RelativeToolTip": "Smart_Attendance_System\\Migrations\\20250524113043_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:30:43.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250524111759_init.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524111759_init.cs",
+              "RelativeDocumentMoniker": "..\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524111759_init.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524111759_init.cs",
+              "RelativeToolTip": "..\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524111759_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:18:00Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250524095320_init.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524095320_init.cs",
+              "RelativeDocumentMoniker": "..\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524095320_init.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524095320_init.cs",
+              "RelativeToolTip": "..\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524095320_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:53:20.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250524094929_facemigrate.cs",
+              "DocumentMoniker": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524094929_facemigrate.cs",
+              "RelativeDocumentMoniker": "..\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524094929_facemigrate.cs",
+              "ToolTip": "E:\\spekatra_practice\\Capstone_Project_Smart_Attandance_Monitoring_System\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524094929_facemigrate.cs",
+              "RelativeToolTip": "..\\Test_Backend\\Smart_Attendance_System\\Migrations\\20250524094929_facemigrate.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:49:29.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/HEMANTH_SQLEXPRESS/SmartAttandanceDb/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/HEMANTH_SQLEXPRESS/SmartAttandanceDb/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-22T08:39:36.308Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
